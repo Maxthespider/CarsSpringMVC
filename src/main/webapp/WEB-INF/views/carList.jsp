@@ -4,7 +4,7 @@
 	<h1>Car List</h1>
  
 	<c:forEach items="${carList}" var="car">
-		${car.brand.name} ${car.model}: ${car.price}
+		${car.name} : $${car.price}
 		<br />
 	</c:forEach>
  

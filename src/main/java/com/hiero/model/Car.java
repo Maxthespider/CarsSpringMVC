@@ -3,28 +3,15 @@ package com.hiero.model;
 import java.math.BigDecimal;
  
 public class Car {
-	private Long id;
-	private Brand brand;
-	private String model;
+	
+	private String name;
 	private BigDecimal price;
- 
-	public Long getId() {
-		return id;
+	
+	public String getName() {
+		return name;
 	}
-	public void setId(Long id) {
-		this.id = id;
-	}
-	public Brand getBrand() {
-		return brand;
-	}
-	public void setBrand(Brand brand) {
-		this.brand = brand;
-	}
-	public String getModel() {
-		return model;
-	}
-	public void setModel(String model) {
-		this.model = model;
+	public void setName(String name) {
+		this.name = name;
 	}
 	public BigDecimal getPrice() {
 		return price;
@@ -32,4 +19,6 @@ public class Car {
 	public void setPrice(BigDecimal price) {
 		this.price = price;
 	}
+ 
+	
 }
